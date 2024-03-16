@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacts</title>
+  <link rel="stylesheet" href="./tailwind.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+</head>
+
+<body>
+ <!-- ================Navbar====================== -->
+ <header id="navbar" class=" sticky top-0 z-50 nav-background">
+  <div class="container max-w-screen-xl mx-auto px-4 py-2">
+    <div class="row items-center relative">
+      <div class=" w-1/2 md:w-1/5 px-4 md:px-0">
+        <a id="logo" href="./index.html" class="block"><img src="../image/Logo.png" class=" w-28 sm:w-36 md:w-44"
+            alt="Octopus"></a>
+      </div>
+      <div id="spacing" class=" w-1/2 md:w-4/5 md:space-y-4 px-4">
+        <ul id="sec01" class=" hidden lg:flex flex-wrap justify-end items-center space-x-4 text-sm font-normal">
+          <li>
+            <a href="./about.html" class="text-color-green"><i class="fas fa-angle-right text-xs"></i> About Us</a>
+          </li>
+          <li>
+            <a href="./contacts.html" class="text-color-green "><i class="fas fa-angle-right text-xs"></i> Contact Us</a>
+          </li>
+          <li>
+            <a href="./team.html" class="text-color-green "><i class="fas fa-angle-right text-xs"></i> Teams</a>
+          </li>
+          <li>
+            <a href="javascript:;" class="text-color-green "><i class="fas fa-angle-right text-xs"></i> Clients</a>
+          </li>
+          <li>
+            <a href="javascript:;" class="text-color-green "><i class="fas fa-angle-right text-xs"></i> Partners</a>
+          </li>
+          <li>
+            <a href="./faq.html" class="text-color-green "><i class="fas fa-angle-right text-xs"></i> FAQ</a></li>
+          <li>
+            <a href="./login.html" class="text-color-green "><i class="fas fa-angle-right text-xs"></i> Login</a>
+          </li>
+          <li class="border-x border-gray-300 px-2"><a href="tel:+880191000000"
+              class="text-white hover:text-gray-300/95"><i class="fas fa-phone pr-2"></i>+880191000000</a></li>
+          <div class="hidden xl:flex justify-between">
+            <li class="border-r border-gray-300 pr-3"><a href="javascript:;" class="relative hover:text-gray-600"><i
+                  class="fa-solid fa-cart-shopping text-lg text-sky-200/95"></i>
+                <div
+                  class=" absolute -top-5 left-3 w-5 h-5 bg-red-500 flex justify-center items-center rounded-full text-[10px] text-white">
+                  0</div>
+              </a></li>
+            <li class=" pl-3"><a href="javascript:;" class="relative hover:text-gray-600"><i
+                  class="fas fa-comment-alt text-lg text-sky-200/95"></i>
+                <div
+                  class=" absolute -top-5 left-3 w-5 h-5 bg-red-500 flex justify-center items-center rounded-full text-[10px] text-white">
+                  0</div>
+              </a></li>
+          </div>
+        </ul>
+        <ul id="sec02"
+          class=" hidden lg:flex flex-wrap justify-end items-center space-x-2 font-semibold text-sm text-white">
+          <li class=" menus relative"><a href="javascript:;"
+              class=" flex px-2 py-2 uppercase  hover:bg-sky-800 ">octopus</a>
+            <ul class=" menuItems hidden absolute w-32 bg-white shadow-md divide-y">
+              <li>
+                <a href="./about.html"
+                  class=" w-full flex justify-start items-center text-[#007acc] hover:text-white hover:bg-[#007acc] duration-150 ease-in px-4 py-3">About Us
+                </a>
+              </li>
+              <li>
+                <a href="./team.html"
+                  class=" w-full flex justify-start items-center text-[#007acc] hover:text-white hover:bg-[#007acc] duration-150 ease-in px-4 py-3">Our Team
+                </a>
+              </li>
+              <li>
+                <a href="javascript:;"
+                  class=" w-full flex justify-start items-center text-[#007acc] hover:text-white hover:bg-[#007acc] duration-150 ease-in px-4 py-3">Gallery
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li class=" menus relative"> 
+            <a href="javascript:;" class=" flex px-2 py-3 uppercase hover:bg-[#007acc] ">web solutions</a>
+            <div class=" menuItems hidden absolute w-[900px] -translate-x-1/4 -left-3">
+              <div class="container max-w-screen-xl mx-auto p-8 backImage01">
+                <div class="row">
+                  <div class="w-1/4 px-4">
+                    <p class=" text-[#007acc] pb-4">Domain</p>
+                    <ul>
+                      <li>
+                        <a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Domain Registration
+                        </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;"class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Check Availability</a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Transfer</a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Renew</a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Search</a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">ICANN Lookup</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="w-1/4 px-4">
+                    <p class=" text-[#007acc] pb-4">Hosting</p>
+                    <ul>
+                      <li>
+                        <a href="javascript:;" class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Cloud Hosting </a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">VPS</a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Dedicated Server</a>
+                      </li>
+                      <li>
+                        <a href="javascript:;" class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Renew</a>
+                      </li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Shared
+                          Server</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Cloud
+                          Storage</a></li>
+                    </ul>
+                  </div>
+                  <div class="w-1/4 px-4">
+                    <p class=" text-[#007acc] pb-4">Website Development</p>
+                    <ul>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Blogs</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Business
+                          Websites</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Portfolios</a>
+                      </li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Online
+                          Forums</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">News Portals</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="w-1/4 px-4">
+                    <p class=" text-[#007acc] pb-4">Ecomerce Solution</p>
+                    <ul>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Marketplaces</a>
+                      </li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Online
+                          Retailers</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class=" menus relative"><a href="javascript:;"
+              class=" flex px-2 py-2 uppercase hover:bg-[#007acc] ">software</a>
+            <div class=" menuItems hidden absolute w-[900px] -translate-x-2/4 left-20">
+              <div class="container max-w-screen-xl mx-auto p-8 backImage02">
+                <div class="row">
+                  <div class="w-1/4 px-4">
+                    <p class=" text-[#007acc] pb-4">Pronali ERP</p>
+                    <ul>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">HRMS</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Accounting &
+                          inventory</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Sales &
+                          Marketing </a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">CRMS</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Support
+                          Management</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Inventory
+                          Management</a></li>
+                    </ul>
+                  </div>
+                  <div class="w-1/4 px-4">
+                    <p class=" text-[#007acc] pb-4">MARG ERP</p>
+                    <ul>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Super
+                          Shop/Departmental</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">FMCG</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Restaurant</a>
+                      </li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Book Store
+                          Shop</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Foot Wear
+                          Shop</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Payroll
+                          Software</a></li>
+                    </ul>
+                  </div>
+                  <div class="w-1/4 px-4">
+                    <p class=" text-[#007acc] pb-4">MICROSOFT</p>
+                    <ul>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Microsoft
+                          office</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Microsoft office
+                          365</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Windows</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Microsoft Sql
+                          Server</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Visual
+                          Studio</a></li>
+                    </ul>
+                  </div>
+                  <div class="w-1/4 px-4">
+                    <p class=" text-[#007acc] pb-4">OTHER PRODUCT</p>
+                    <ul>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Fortinet</a>
+                      </li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">VM Ware</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class=" menus relative"><a href="javascript:;"
+              class=" flex px-2 py-2 uppercase hover:bg-[#007acc] ">computing</a>
+            <div class=" menuItems hidden absolute w-[900px] -translate-x-2/4 -left-5">
+              <div class="container max-w-screen-xl mx-auto p-8 backImage01">
+                <div class="row">
+                  <div class="w-1/4 px-4">
+                    <p class=" text-[#007acc] pb-4">Domain</p>
+                    <ul>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Domain
+                          Registration</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Check
+                          Availability</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Transfer</a>
+                      </li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Renew</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Search</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">ICANN Lookup</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="w-1/4 px-4">
+                    <p class=" text-[#007acc] pb-4">Hosting</p>
+                    <ul>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Cloud
+                          Hosting</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">VPS</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Dedicated
+                          Server</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Renew</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Shared
+                          Server</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Cloud
+                          Storage</a></li>
+                    </ul>
+                  </div>
+                  <div class="w-1/4 px-4">
+                    <p class=" text-[#007acc] pb-4">Website Development</p>
+                    <ul>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Blogs</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Business
+                          Websites</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Portfolios</a>
+                      </li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Online
+                          Forums</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">News Portals</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="w-1/4 px-4">
+                    <p class=" text-[#007acc] pb-4">E Commerce Solution</p>
+                    <ul>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Marketplaces</a>
+                      </li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Online
+                          Retailers</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+
+          <li class=" menus relative"><a href="javascript:;"
+              class=" flex px-2 py-2 uppercase hover:bg-[#007acc] ">surveillance</a>
+            <div class=" menuItems hidden absolute w-[900px] -translate-x-3/4 left-5">
+              <div class="container max-w-screen-xl mx-auto p-8 backImage01">
+                <div class="row">
+                  <div class="w-1/4 px-4">
+                    <p class=" text-[#007acc] pb-4">Domain</p>
+                    <ul>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Domain
+                          Registration</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Check
+                          Availability</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Transfer</a>
+                      </li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Renew</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Search</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">ICANN Lookup</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="w-1/4 px-4">
+                    <p class=" text-[#007acc] pb-4">Hosting</p>
+                    <ul>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Cloud
+                          Hosting</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">VPS</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Dedicated
+                          Server</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Renew</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Shared
+                          Server</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Cloud
+                          Storage</a></li>
+                    </ul>
+                  </div>
+                  <div class="w-1/4 px-4">
+                    <p class=" text-[#007acc] pb-4">Website Development</p>
+                    <ul>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Blogs</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Business
+                          Websites</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Portfolios</a>
+                      </li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Online
+                          Forums</a></li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">News Portals</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="w-1/4 px-4">
+                    <p class=" text-[#007acc] pb-4">E Commerce Solution</p>
+                    <ul>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Marketplaces</a>
+                      </li>
+                      <li><a href="javascript:;"
+                          class=" flex px-4 py-2 text-gray-700 hover:text-gray-900 hover:bg-gray-200">Online
+                          Retailers</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class=" menus relative"><a href="javascript:;"
+              class=" flex px-2 py-2 uppercase hover:bg-[#007acc] ">other products</a>
+            <ul class=" menuItems hidden absolute w-40 bg-white shadow-md divide-y">
+              <li><a href="javascript:;"
+                  class=" w-full flex justify-start items-center text-[#007acc] hover:text-white hover:bg-[#007acc] duration-150 ease-in px-4 py-3">Biometric
+                  Device</a></li>
+              <li><a href="javascript:;"
+                  class=" w-full flex justify-start items-center text-[#007acc] hover:text-white hover:bg-[#007acc] duration-150 ease-in px-4 py-3">Scanning
+                  Solution</a></li>
+              <li><a href="javascript:;"
+                  class=" w-full flex justify-start items-center text-[#007acc] hover:text-white hover:bg-[#007acc] duration-150 ease-in px-4 py-3">IP
+                  Phone</a></li>
+              <li><a href="javascript:;"
+                  class=" w-full flex justify-start items-center text-[#007acc] hover:text-white hover:bg-[#007acc] duration-150 ease-in px-4 py-3">Security
+                  Devices</a></li>
+            </ul>
+          </li>
+          <ul class=" hidden xl:flex justify-between items-center space-x-2">
+            <li><a href="javascript:;"
+                class=" text-[#3b5998] hover:text-white bg-white hover:bg-[#3b5998] duration-700 ease-in-out w-7 h-7 flex justify-center items-center rounded-full"><i
+                  class="fa-brands fa-facebook-f"></i></a></li>
+            <li><a href="javascript:;"
+                class=" text-[#55acee] hover:text-white bg-white hover:bg-[#55acee] duration-700 ease-in-out w-7 h-7 flex justify-center items-center rounded-full"><i
+                  class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="javascript:;"
+                class=" text-[#0077b5] hover:text-white bg-white hover:bg-[#0077b5] duration-700 ease-in-out w-7 h-7 flex justify-center items-center rounded-full"><i
+                  class="fa-brands fa-linkedin-in"></i></a></li>
+            <li><a href="javascript:;"
+                class=" text-[#cd201f] hover:text-white bg-white hover:bg-[#cd201f] duration-700 ease-in-out w-7 h-7 flex justify-center items-center rounded-full"><i
+                  class="fa-brands fa-youtube"></i></a></li>
+          </ul>
+        </ul>
+      </div>
+      <span class=" mobile-menu-btn absolute top-1/2 right-4 text-white font-bold flex lg:hidden cursor-pointer">
+        <i class="fa-solid fa-bars fa-xl"></i>
+      </span>
+    </div>
+    <!-- ========================Mobile Menu=============================== -->
+    <div class="mobile-menu hidden lg:hidden relative">
+      <ul class=" z-30 absolute top-2 right-0 w-1/2 md:w-2/6 divide-y divide-bg-color-2 list rounded-sm shadow-2xl">
+        <li><a href="./index.html" class=" flex justify-center font-bold px-4 py-2">octopus</a></li>
+        <li><a href="javascript:;" class=" flex justify-center font-bold px-4 py-2">web solutions</a></li>
+        <li><a href="javascript:;" class=" flex justify-center font-bold px-4 py-2">software</a></li>
+        <li><a href="javascript:;" class=" flex justify-center font-bold px-4 py-2">computing</a></li>
+        <li><a href="javascript:;" class=" flex justify-center font-bold px-4 py-2">other probucts</a></li>
+        <li><a href="./about.html" class=" flex justify-center font-bold px-4 py-2">About Us</a></li>
+        <li><a href="./contacts.html" class=" flex justify-center font-bold px-4 py-2">Contact Us</a></li>
+        <li><a href="javascript:;" class=" flex justify-center font-bold px-4 py-2">Login</a></li>
+      </ul>
+    </div>
+    <!-- ========================Mobile Menu END=============================== -->
+  </div>
+</header>
+<!-- ================Navbar End====================== -->
+  <!-- =====================Hero Section================== -->
+  <section class="">
+    <div class="container max-w-screen-xl mx-auto px-4 py-10">
+      <div class="row items-center">
+        <div class=" w-full md:w-6/12 px-4 space-y-4 md:space-y-8">
+          <h2 class=" md:leading-tight title font-bold text-2xl lg:text-5xl text-sky-900">Contact Us</h2>
+          <p class=" text-base text-gray-700 pb-8 lg:pb-0">We have a professional and excellent team, totally focused on
+            your business. Need some clarification? Don't hesitate to contact us, let's talk a little bit and discuss
+            your ideas, without commitment.</p>
+        </div>
+        <div class=" w-full md:w-6/12 px-4">
+          <div class="flex justify-start md:justify-end items-center">
+            <img src="../image/support.jpg" alt="support">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- =====================Hero Section End================== -->
+  <!-- ===========================Form Section Start============================ -->
+  <section class=" py-10">
+    <div class="container mx-auto max-w-screen-xl px-4">
+      <div class="row">
+        <div class="lg:w-2/3 md:1/2 w-full px-4 space-y-4 lg:space-y-6">
+          <div class="flex flex-wrap sm:justify-start justify-center">
+            <p class="top-content uppercase text-sky-900 font-bold text-base lg:text-lg">Send a message</p>
+          </div>
+          <h1 class="md:leading-tight title font-bold text-2xl lg:text-4xl text-sky-400">Get in Touch</h1>
+          <p class=" text-base text-gray-700">We will respond to your message as soon as possible.</p>
+          <div class="w-full py-4">
+            <form action="" id="contact_form" class="ct_form">
+              <div class="grid sm:grid-cols-2 grid-cols-1 gap-6">
+                <div class="">
+                  <input type="text" name="name"
+                    class="rounded bg-blue-50 px-4 py-4 w-full border border-blue-50 focus:border-blue-200 focus:outline-none"
+                    placeholder="Name">
+                </div>
+                <div class="">
+                  <input type="email" name="email"
+                    class="rounded bg-blue-50 px-4 py-4 w-full border border-blue-50 focus:border-blue-200 focus:outline-none"
+                    placeholder="Email">
+                </div>
+                <div class="">
+                  <input type="text" name="phone"
+                    class="rounded bg-blue-50 px-4 py-4 w-full border border-blue-50 focus:border-blue-200 focus:outline-none"
+                    placeholder="Phone">
+                </div>
+                <div class="">
+                  <input type="text" name="subject"
+                    class="rounded bg-blue-50 px-4 py-4 w-full border border-blue-50 focus:border-blue-200 focus:outline-none"
+                    placeholder="Subject">
+                </div>
+              </div>
+              <div class="col-12 mt-6">
+                <textarea rows="6" name="message"
+                  class="rounded bg-blue-50 px-4 py-4 w-full border border-blue-50 focus:border-blue-200 focus:outline-none"
+                  placeholder="Message"></textarea>
+              </div>
+              <button class="py-4 pl-8 pr-2 rounded mt-10 sm:w-52 w-full hover:bg-sky-900 font-bold arrow items-center">
+                <a class="mr-6 md:text-lg text-md uppercase " herf="javascript:;">Submit</a>
+              </button>
+            </form>
+          </div>
+        </div>
+        <div class="lg:w-1/3 md:1/2 w-full px-4">
+          <div class="contacts">
+            <h4 class=" md:leading-tight title font-bold text-2xl lg:text-4xl text-sky-900">Office Info</h4>
+            <p class="mt-6 text-gray-700 text-base font-normal">If you would like to find out more about how we can help
+              you, please give us a call or drop us an email. </p>
+            <p class="mt-4 text-gray-700 text-base font-normal"> We welcome your ideas and suggestions about this
+              website and/or any other issues that you wish to raise. </p>
+            <ul class="mt-12">
+              <li class="flex items-center mt-8">
+                <a href="javascript:;" class="bg-blue-100 h-10 w-10 text-center rounded-full">
+                  <i class="fa-solid fa-phone text-2xl text-sky-900 mt-2"></i>
+                </a>
+                <p class="ml-4 font-medium text-sky-900 -mt-2.5 text-xl">+8801863667367</p>
+              </li>
+              <li class="flex items-center mt-8">
+                <a href="javascript:;" class="bg-blue-100 h-10 w-10 text-center rounded-full">
+                  <i class="fa-solid text-2xl text-sky-900 mt-2 fa-envelope"></i>
+                </a>
+                <p class="ml-4 font-medium text-sky-900 -mt-2.5 text-xl">contact@octopus.tech</p>
+              </li>
+              <li class="flex items-center mt-8">
+                <div>
+                  <a href="javascript:;" class="bg-blue-100 h-10 w-10 text-center rounded-full inline-block">
+                    <i class="fa-solid text-2xl text-sky-900 mt-2 fa-location-dot"></i>
+                  </a>
+                </div>
+                <p class="ml-4 font-medium text-sky-900 -mt-2.5 text-xl">H-673-675, R-10, Ave-6 Mirpur DOHS</p>
+              </li>
+              <li class=" mt-12 bg-sky-400 text-center  w-full hover:bg-blue-500">
+                <a target="_blank"
+                  href="https://www.google.com/maps/place/South+Zone+private+Hospital/@22.8332677,89.5333983,18.2z/data=!4m6!3m5!1s0x39ff9abb701e9ce7:0x258b13e2ccc970c1!4b1!8m2!3d22.8323564!4d89.5353803"
+                  class="text-white font-semibold block  p-4">VIEW MAP</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===========================Form Section End============================ -->
+  <!-- footer section starts -->
+  <div class=" py-10 border-t-4 border-sky-400  bg-gradient-to-l from-sky-300/90 to-white relative">
+    <div class="container  max-w-screen-xl mx-auto px-4 py-4 ">
+      <div class="absolute -top-8 px-8 py-4 bg-sky-900 rounded-sm text-white">Get in Touch</div>
+      <div class="row py-4">
+        <div class="sm:w-full md:w-6/12 lg:w-5/12  px-4">
+          <h2 class="text-sky-900">NEWSLETTER</h2>
+          <p class="py-4 text-sky-600">Keep up on our always evolving product features and technology. Enter your e-mail
+            address and subscribe to our newsletter.</p>
+          <form action="" id=" " class="me-4 mb-3 md:mb-0 ">
+            <div class="relative flex flex-wrap items-stretch ">
+              <input class="rounded-l-full  sm:w-72 pl-4 text-xs relative h-10 flex outline-none border-r" type="text"
+                placeholder="Email Address" name="newsletterEmail">
+              <button class="bg-white relative text-xs rounded-r-full px-4 text-sky-900 font-bold"
+                type="submit">Go!</button>
+            </div>
+          </form>
+        </div>
+        <div class="w-full md:w-6/12  lg:w-4/12  px-4">
+          <h2 class="text-sky-900">Contact Us </h2>
+          <ul class="py-4">
+            <li class="text-sky-600">
+              <i class="far fa-dot-circle pr-1 "></i> H-673-675, R-10, Ave-6 Mirpur DOHS
+            </li>
+            <li class="text-sky-600">
+              <i class="fab fa-whatsapp  pr-1 "></i><a href="tel:+8801863667367"> +8801863667367</a>
+            </li>
+            <li class="text-sky-600">
+              <i class="far fa-envelope pr-1"></i> <a href="mail:info@alphasoft.com.bd"> info@alphasoft.com.bd</a>
+            </li>
+          </ul>
+        </div>
+        <div class="w-full sm:w-1/2 lg:w-3/12 px-4">
+          <h2 class="text-sky-900">Follow Us </h2>
+          <ul class="row py-4 space-x-2">
+            <li class="">
+              <a class=" w-10 h-10 flex items-center justify-center rounded-full hover:bg-blue-900 hover:text-white text-blue-900 bg-white text-xl"
+                href="www.facebook.com" title="Facebook">
+                <i class="fa-brands fa-facebook-f "></i>
+              </a>
+            </li>
+            <li class="">
+              <a class=" w-10 h-10 flex items-center justify-center rounded-full hover:bg-sky-600 hover:text-white text-sky-600 bg-white text-xl"
+                href="www.twitter.com" title="Twitter">
+                <i class="fab fa-twitter "></i>
+              </a>
+            </li>
+            <li class="">
+              <a class=" w-10 h-10 flex items-center justify-center rounded-full hover:bg-sky-800 hover:text-white text-sky-900 bg-white text-xl"
+                href="www.linkedin.com" title="Linkedin">
+                <i class="fab fa-linkedin-in "></i>
+              </a>
+            </li>
+            <li class="">
+              <a class=" w-10 h-10 flex items-center justify-center rounded-full hover:bg-red-700 hover:text-white text-red-700  bg-white text-2xl"
+                href="www.youtube.com" title="youtube">
+                <i class="fab fa-youtube "></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class=" bg-gradient-to-l from-sky-300/90 to-white  border-t">
+    <div class="container mx-auto px-4 py-4 ">
+      <div class="row">
+        <div class="w-full text-center">
+          <p class=""> <span class="pr-2"><i class="fa-regular fa-copyright "> </i> 2023</span> All rights
+            reserved by <a href="index.html" class="text-lg hover:text-sky-900 ">Octopus.</a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- footer section ends -->
+  <script src="../js/index.js"></script>
+</body>
+
+</html>
