@@ -62,7 +62,6 @@
     "source-map-js": "^1.0.2",
     "supports-preserve-symlinks-flag": "^1.0.0",
     "to-regex-range": "^5.0.1",
-    "typed.js": "^2.0.16",
     "util-deprecate": "^1.0.2",
     "xtend": "^4.0.2",
     "yaml": "^1.10.2"

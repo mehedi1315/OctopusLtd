@@ -621,7 +621,7 @@
       <div class="row items-center">
         <div class="w-full px-4 space-y-6 pb-20 text-center">
           <h2 class=" text-[#274960] text-xl sm:text-2xl lg:text-3xl tracking-tight"> We're not the only ones <span
-              id="element" class=" bg-[#0B60DF] text-white  px-2 py-2 rounded-md"></span> about out services... </h2>
+               class="element bg-[#0B60DF] text-white  px-2 py-2 rounded-md"></span> about out services... </h2>
           <p class=" text-sm sm:text-base lg:text-lg text-[#0B60DF]">1000 CUSTOMERS USE OUR SERVICES. MEET OUR
             CUSTOMERS.</p>
         </div>
@@ -1055,14 +1055,26 @@
       });
     });
   </script>
-  <script src="../node_modules/typed.js/dist/typed.umd.js"></script>
+  
   <script>
-    let typed = new Typed('#element', {
-      strings: ['happy', 'excited'],
-      typeSpeed: 100,
-      loop: true,
-      showCursor: false
-    });
+   const text = document.querySelector(".element")
+   const textLoad = ()=>{
+    setTimeout(()=>{
+      text.textContent = "Happy"
+    },0)
+    setTimeout(() =>{
+      text.textContent = "Excited"
+    },4000)
+
+   }
+    textLoad()
+    setInterval(textLoad,12000)
+    // let typed = new Typed ('#element', {
+    //   strings: ['happy', 'excited'],
+    //   typeSpeed: 100,
+    //   loop: true,
+    //   showCursor: false
+    // });
   </script>
 </body>
 
