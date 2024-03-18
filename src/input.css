@@ -115,9 +115,20 @@
  }
  .custom-bg-2{
     background-image: url("../image/bg3.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ .custom-bg-3{
+    background-image: url("../image/bgteam.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 320px;
+  
  }
  .nav-background{
-  /* background: linear-gradient(90deg, #ffffff 3%, #008ccf 43%, #008dcf 43%); */
+  
   background: linear-gradient(90deg, #ffffff 3%, #008ccf 65%, #008dcf 43%);
  }
 
@@ -159,5 +170,6 @@
   background-position: center;
  }
 }
- 
+
+
 

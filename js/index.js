@@ -1,11 +1,3 @@
-// =======================head-1 section==========================
-// const min = document.querySelector(".cross")
-// const area = document.querySelector(".place")
-
-// min.addEventListener("click", function(){
-//     area.classList.add("hidden")
-// })
-
 
 // =====================Menu Sec===================
 const btn = document.querySelector(".mobile-menu-btn")
@@ -20,28 +12,19 @@ window.onscroll = function() {
     if(window.innerWidth > 1023) {
         scrollFunction()
     }
-    else {
-      // document.getElementById("sec01").style.display = "none";
-      // document.getElementById("sec01").classList.add("hidden");
-    }
+    else {}
     };
 
 function scrollFunction() {
   if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 120) {
-    // document.getElementById("navbar").style.padding = "40px";
-    // document.getElementById("sec01").style.display = "none";
-    // document.getElementById("sec01").classList.add("hidden");
+   
     document.getElementById("sec01").classList.remove("lg:flex");
     document.getElementById("logo").style.width = "100px";
     document.getElementById("spacing").classList.remove("md:space-y-4");
   } else {
     document.getElementById("sec01").classList.add("lg:flex")
-    // document.getElementById("sec01").style.display = "flex";
-    // document.getElementById("sec01").classList.remove("hidden");
     document.getElementById("logo").style.width = "100%";
     document.getElementById("spacing").classList.add("md:space-y-4");
-    // document.getElementById("navbar").style.padding = "62px";
-    // document.getElementById("logo").style.fontSize = "35px";
   }
 }
 
@@ -52,7 +35,6 @@ if(window.innerWidth < 1023) {
 // ======================Sub-menu========================
 
 const menus = document.querySelectorAll(".menus");
-// const menuItems = document.getElementsByClassName("menuItems");
 const menuLinks = document.querySelectorAll("#sec02 li a");
 const subMenus = document.querySelectorAll("ul li ul");
 
@@ -128,3 +110,34 @@ class Accordion {
   }
 }
 let a = new Accordion({});
+
+//js for text annimation
+
+const text = document.querySelector(".element")
+   const textLoad = ()=>{
+    setTimeout(()=>{
+      text.textContent = "Happy"
+    },0)
+    setTimeout(() =>{
+      text.textContent = "Excited"
+    },2000)
+   }
+    textLoad()
+    setInterval(textLoad,4000)
+
+    //============= counters==============
+let displayValues = document.querySelectorAll('.num')
+let interval = 800
+
+displayValues.forEach((displayValue)=>{
+    let startValue=0
+    let endValue = parseInt(displayValue.getAttribute("data-val"))
+    let duration = Math.floor(interval / endValue)
+    let counter =setInterval(function(){
+        startValue += 1
+        displayValue.textContent = startValue + "+"
+        if( startValue == endValue){
+            clearInterval(counter)
+        }
+    }, duration)
+})
