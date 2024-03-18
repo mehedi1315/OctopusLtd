@@ -127,7 +127,7 @@ const text = document.querySelector(".element")
 
     //============= counters==============
 let displayValues = document.querySelectorAll('.num')
-let interval = 800
+let interval = 300
 
 displayValues.forEach((displayValue)=>{
     let startValue=0
