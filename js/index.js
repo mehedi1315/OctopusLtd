@@ -62,6 +62,8 @@ menus.forEach((menu) => {
 })
 
 
+
+
 // js code for accordian 
 class Accordion {
   constructor(options){
@@ -113,17 +115,17 @@ let a = new Accordion({});
 
 //js for text annimation
 
-const text = document.querySelector(".element")
-   const textLoad = ()=>{
-    setTimeout(()=>{
-      text.textContent = "Happy"
-    },0)
-    setTimeout(() =>{
-      text.textContent = "Excited"
-    },2000)
-   }
-    textLoad()
-    setInterval(textLoad,4000)
+// const text = document.querySelector(".element")
+//    const textLoad = ()=>{
+//     setTimeout(()=>{
+//       text.textContent = "Happy"
+//     },0)
+//     setTimeout(() =>{
+//       text.textContent = "Excited"
+//     },2000)
+//    }
+//     textLoad()
+//     setInterval(textLoad,4000)
 
     //============= counters==============
 let displayValues = document.querySelectorAll('.num')

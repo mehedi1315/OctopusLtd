@@ -629,8 +629,8 @@
     <div class="container max-w-screen-xl mx-auto px-4">
       <div class="row items-center">
         <div class="w-full px-4 space-y-6 pb-20 text-center">
-          <h2 class=" text-[#274960] text-xl sm:text-2xl lg:text-3xl tracking-tight "> We're not the only ones <span
-               class="element  bg-[#0B60DF] text-white  px-2 py-2 rounded-md"></span> about out services... </h2>
+          <h2 class=" text-[#274960] text-xl sm:text-2xl lg:text-3xl tracking-tight "> We're not the only ones <span id="element"
+               class=" bg-[#0B60DF] text-white  px-2 py-2 rounded-md"></span> about out services... </h2>
           <p class=" text-sm sm:text-base lg:text-lg text-[#0B60DF]">1000 CUSTOMERS USE OUR SERVICES. MEET OUR
             CUSTOMERS.</p>
         </div>
@@ -922,8 +922,8 @@
         <div class="w-full md:w-6/12  lg:w-4/12  px-4">
           <h2 class="text-sky-900">Contact Us </h2>
           <ul class="py-4 text-base font-light space-y-3">
-            <li class="text-gray-600">
-              <i class="far fa-dot-circle pr-1 text-sky-600 "></i> House #597, (Flat-6B), Avenue-6 Road-09, Mirpur DOHS , Mirpur 1216
+            <li class="text-sky-600">
+              <i class="far fa-dot-circle pr-1  "></i> House #597, (Flat-6B), Avenue-6 Road-09, Mirpur DOHS , Mirpur 1216
             </li>
             <li class="text-sky-600">
               <i class="fab fa-whatsapp  pr-1 "></i><a href="tel:+8801863667367" >
@@ -938,25 +938,25 @@
           <h2 class="text-sky-900">Follow Us </h2>
           <ul class="row py-4 space-x-2">
             <li class="">
-              <a class=" w-10 h-10 flex items-center justify-center rounded-full hover:bg-blue-900 hover:text-white text-blue-900 bg-white text-xl"
+              <a class=" w-10 h-10 flex items-center justify-center duration-700 ease-in-out rounded-full hover:bg-blue-900 hover:text-white text-blue-900 bg-white text-xl"
                 href="https://www.facebook.com/OctopusTechfiniteLtd?mibextid=ZbWKwL" title="Facebook">
                 <i class="fa-brands fa-facebook-f "></i>
               </a>
             </li>
             <li class="">
-              <a class=" w-10 h-10 flex items-center justify-center rounded-full hover:bg-sky-600  bg-white text-xl"
+              <a class=" w-10 h-10 flex items-center justify-center duration-700 ease-in-out rounded-full hover:bg-sky-600  bg-white text-xl"
                 href="www.twitter.com" title="Twitter">
                 <i class="fa-brands fa-x-twitter"></i>
               </a>
             </li>
             <li class="">
-              <a class=" w-10 h-10 flex items-center justify-center rounded-full hover:bg-sky-800 hover:text-white text-sky-900 bg-white text-xl"
+              <a class=" w-10 h-10 flex items-center justify-center duration-700 ease-in-out rounded-full hover:bg-sky-800 hover:text-white text-sky-900 bg-white text-xl"
                 href="www.linkedin.com" title="Linkedin">
                 <i class="fab fa-linkedin-in "></i>
               </a>
             </li>
             <li class="">
-              <a class=" w-10 h-10 flex items-center justify-center rounded-full hover:bg-red-700 hover:text-white text-red-700  bg-white text-2xl"
+              <a class=" w-10 h-10 flex items-center justify-center duration-700 ease-in-out rounded-full hover:bg-red-700 hover:text-white text-red-700  bg-white text-2xl"
                 href="www.youtube.com" title="youtube">
                 <i class="fab fa-youtube "></i>
               </a>
@@ -1064,6 +1064,15 @@
       });
     });
   </script>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+      let typed = new Typed('#element', {
+        strings: ['happy', 'excited'],
+        typeSpeed: 100,
+        loop: true,
+        showCursor: false
+      });
+    </script>
   
 </body>
 
